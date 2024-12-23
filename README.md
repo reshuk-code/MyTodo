@@ -1,6 +1,3 @@
-
-
-```markdown
 # Todo and Schedule App
 
 A simple, responsive Todo and Schedule application built using **React** and **Vite**. This app allows users to create, manage, and store their todos and schedules. The data is persisted in the browser's local storage, ensuring that it stays even after refreshing the page.
@@ -30,52 +27,65 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) i
 1. Clone the repository:
    ```bash
    git clone https://github.com/reshuk-code/MyTodo.git
-   ```
+Navigate into the project directory:
 
-2. Navigate into the project directory:
-   ```bash
-   cd todo-schedule-app
-   ```
+bash
+Copy code
+cd todo-schedule-app
+Install dependencies:
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+bash
+Copy code
+npm install
+Run the development server:
 
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
+bash
+Copy code
+npm run dev
+This will start the app in development mode. Open http://localhost:5173 in your browser to view the application.
 
-   This will start the app in development mode. Open [http://localhost:5173](http://localhost:5173) in your browser to view the application.
+Usage
+Create a Todo: Click on the "Create Todo" button, then enter the name, purpose, and end date.
+Add Tasks: For each todo, you can add multiple tasks. Tasks will be listed under the corresponding todo.
+Edit Tasks: Edit any task by clicking the edit button next to it.
+Delete Tasks: Remove individual tasks or delete the entire todo using the delete buttons.
+Persistent Data: All your todos and tasks are stored in the browser's local storage, so they persist after page reload.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+Vite: A fast build tool for frontend development.
+React Icons: For the icons (Add, Trash, Calendar).
+CSS: For styling the application.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Usage
+Contributing
+Contributions to this project are welcome! If you would like to contribute, please follow these steps:
 
-- **Create a Todo**: Click on the "Create Todo" button, then enter the name, purpose, and end date.
-- **Add Tasks**: For each todo, you can add multiple tasks. Tasks will be listed under the corresponding todo.
-- **Edit Tasks**: Edit any task by clicking the edit button next to it.
-- **Delete Tasks**: Remove individual tasks or delete the entire todo using the delete buttons.
-- **Persistent Data**: All your todos and tasks are stored in the browser's local storage, so they persist after page reload.
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make the necessary changes and commit them with descriptive messages.
+Push your changes to your forked repository.
+Open a pull request to the main repository.
+Please ensure that your code adheres to the existing style and includes tests for new features.
 
-## Technologies Used
+Contact Information
+If you have any questions or suggestions, feel free to contact me:
 
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A fast build tool for frontend development.
-- **React Icons**: For the icons (Add, Trash, Calendar).
-- **CSS**: For styling the application.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
+Email: reshuksapkota2007@gmail.com
+GitHub: reshuk-code
 Feel free to open issues or submit pull requests if you would like to contribute to this project!
-```
 
-### Changes Made:
-1. **Clarified Technologies**: I mentioned Vite as the build tool and clarified it's a frontend-only application.
-2. **Installation**: I adjusted the installation steps to match Vite's development environment.
-3. **Features**: Updated the features to highlight the creation and management of todos and tasks.
-4. **Usage**: Added details on how users can interact with the app.
+vbnet
+Copy code
+
+### Key Updates:
+1. **Contributing**: Provides guidelines for developers who want to contribute to the project.
+2. **Contact Information**: Adds your email and GitHub handle so people can contact you with questions or suggestions.
+
+This should make your project more accessible to other developers and users. Let me know if you need further updates or assistance!
+
+
+
+
+
 
